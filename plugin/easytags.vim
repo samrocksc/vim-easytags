@@ -63,7 +63,7 @@ if !exists('g:easytags_python_script')
 endif
 
 " Make sure Exuberant Ctags >= 5.5 is installed.
-if !xolox#easytags#initialize('5.5')
+if !xolox#easytags#initialize('0.0.0')
   " Did the user configure the plug-in to suppress the regular warning message?
   if !(exists('g:easytags_suppress_ctags_warning') && g:easytags_suppress_ctags_warning)
     " Explain to the user what went wrong:
